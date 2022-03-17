@@ -7,7 +7,7 @@ public class Createfile {
 public static void main(String[] args) {
 	//averiguar si un archivo existe o no en el disco o directorio (se genera en el paquete)
 	try {
-		File file = new File("record.txt");
+		File file = new File("record1.txt");
 		if (file.createNewFile()) {
 			System.out.println("has creado un archivo que crack xd");
 		} else {

@@ -9,7 +9,7 @@ public static void main(String[] args) {
 		Reader reader = new FileReader("record.txt");
 		int data = reader.read();
 		while (data != -1) { //el -1 es el final del archivo
-			System.out.println((char) data);
+			System.out.print((char) data);
 			data = reader.read();
 		}
 		

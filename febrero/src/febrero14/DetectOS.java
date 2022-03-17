@@ -20,7 +20,7 @@ public class DetectOS {
         }
     }
 public static boolean isWindows() {
-    return (OS.indexOf("win" )>= 0);
+    return (OS.indexOf("win" ) >= 0);
 }
 
 public static boolean isMac () {
